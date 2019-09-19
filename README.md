@@ -9,7 +9,6 @@
 </p>
 <br>
 <p align="center">
-	We welcome contributions! :) <br>
 	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
 </p>
 <br>
