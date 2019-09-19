@@ -1,5 +1,5 @@
 <div align="center">
-	<img width="400" height="250" src="https://i.imgur.com/PUTL6O6.png">
+	<img width="350" height="250" src="https://i.imgur.com/PUTL6O6.png">
 	<br>
 	<br>
 </div>
@@ -29,6 +29,9 @@ Right now, we organize the collection by database type.
 
 - [MySQL](#MySQL)
 - [PostgreSQL](#PostgreSQL)
+
+<br>
+<br>
 
 ### MySQL
 
