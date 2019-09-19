@@ -14,7 +14,7 @@ This dataset works with PostgreSQL.  It includes these tables:
 
 ## How to use
 
-1. Make sure your Postgres database server is running.
+1. Make sure your Postgres database server is [running](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html).
 
 2. Download the spotify.pgsql file.
 
