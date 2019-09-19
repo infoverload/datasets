@@ -27,18 +27,14 @@ Right now, we organize the collection by database type.
 
 ## Dataset Collection
 
-- [SQLite](#SQLite)
 - [MySQL](#MySQL)
 - [PostgreSQL](#PostgreSQL)
 
-### SQLite
-
-- [Placeholder](#) - BLAH
-
 ### MySQL
 
-- [Placeholder](#) - BLAH
+- [What to brew](#)
+- [Kickstarter](#)
 
 ### PostgreSQL
 
-- [Spotify](https://github.com/infoverload/datasets/spotify) - BLAH
+- [Spotify](https://github.com/infoverload/datasets/spotify)

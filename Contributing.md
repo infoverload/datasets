@@ -47,12 +47,10 @@ git push origin [branch name]
 
 ## Quality, quality, quality!  
 
-What is considered a good dataset?
+Try to contribute a dataset that is clean and organized, which could mean removing duplicate, incorrect, or irrelevant data. Take care to do a thorough job in cleaning your dataset because even small mistakes can diminish the quality. 
 
 
-How can you contribute?
-How can you add new datasets?
+How do I clean the dataset?
 How can you give credit to where it was found?
 Where can I find a good dataset?
-How do I clean the dataset?
-Hacktoberfest label
+Hacktoberfest label?
