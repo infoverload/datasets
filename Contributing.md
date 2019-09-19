@@ -47,7 +47,7 @@ git push origin [branch name]
 
 ## Quality, quality, quality!  
 
-Try to contribute a dataset that is clean and organized, which could mean removing duplicate, incorrect, or irrelevant data. Take care to do a thorough job in cleaning your dataset because even small mistakes can diminish the quality. 
+Try to contribute a dataset that is normalized, which could mean removing duplicate, incorrect, or irrelevant data. Take care to do a thorough job in cleaning your dataset because even small mistakes can diminish the quality. 
 
 
 How do I clean the dataset?
