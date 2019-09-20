@@ -1,7 +1,7 @@
 ## How to use a dataset for
 
 <div align="center">
-	<img width="350" height="250" src="http://www.postgresqltutorial.com/wp-content/uploads/2012/08/What-is-PostgreSQL.png">
+	<img width="400" height="250" src="https://i.imgur.com/hoDcvk1.png">
 	<br><br>
 </div>
 
