@@ -1,7 +1,6 @@
 <div align="center">
 	<img width="350" height="250" src="https://i.imgur.com/PUTL6O6.png">
-	<br>
-	<br>
+	<br><br>
 </div>
 <div align="center">
     <img width="400" height="100" src="https://i.imgur.com/26LS52P.png">
@@ -10,16 +9,13 @@
 <p align="center">
 	We welcome contributions! :) <br>
 	Please see our <a href="contributing.md">contribution guide.</a>&nbsp;&nbsp;&nbsp;
-</p>
-<br>
+</p><br>
 <p align="center">
 	:star: Star us on GitHub — it helps!&nbsp;&nbsp;&nbsp;
-</p>
-<br>
+</p><br>
 <p align="center">
 	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
-</p>
-<br>
+</p><br>
 
 # What is it?  
 
@@ -62,8 +58,7 @@ Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/ma
 </p>
 
 <div align="center">
-  <img width="100" height="100" src="https://media.giphy.com/media/ja0GIbM7tPVQws8xJK/giphy.gif">
-  <br>
+  <img width="100" height="100" src="https://media.giphy.com/media/ja0GIbM7tPVQws8xJK/giphy.gif"><br>
   <strong><a href="https://twitter.com/prisma">Twitter - </a></strong>
   <strong><a href="https://slack.prisma.io">Slack</a></strong>
 </div>

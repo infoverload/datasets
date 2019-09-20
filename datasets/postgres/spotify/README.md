@@ -12,3 +12,13 @@ This dataset is a representation of playlists in a Spotify account.  It includes
 - Playlist
 - Track
 - User
+
+## How to use
+
+Run:
+
+```sh
+psql -U username -d spotify < spotify.pgsql 
+```
+
+For more detailed instructions, go [here](../how-to-use.md)
