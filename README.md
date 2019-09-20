@@ -13,7 +13,7 @@
 <p align="center">
 	:star: Star us on GitHub — it helps!&nbsp;&nbsp;&nbsp;
 </p><br>
-<p align="center">
+<p align="center" style="color:purple">
 	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
 </p><br>
 

@@ -64,3 +64,6 @@ prisma2 dev
 ```
 
 This launches the [development mode](https://github.com/prisma/prisma2/blob/master/docs/development-mode.md) and creates a [Prisma Studio](https://github.com/prisma/studio) endpoint for you.  Go to the endpoint (i.e. http://localhost:5555 ) and explore the generated Prisma schema visually in your browser.
+
+
+> **Note**: Prisma 2 currently supports introspecting MySQL and PostgreSQL database schemas. [Introspection support for SQLite]((https://github.com/prisma/prisma2/issues/51)) is in the works.
