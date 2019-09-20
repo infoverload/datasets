@@ -3,10 +3,9 @@
 	<br>
 	<br>
 </div>
-<div class="title">
-	<p align="center">
-		Datasets for everyone!
-	</p>
+<div align="center">
+    <img width="400" height="100" src="https://i.imgur.com/26LS52P.png">
+	<br>		
 </div>
 <p align="center">
 	We welcome contributions! :) <br>
