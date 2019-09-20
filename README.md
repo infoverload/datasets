@@ -34,16 +34,20 @@ Right now, we organize the collection by database type.
 
 ### MySQL
 
-- [What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)
-- [Kickstarter](https://github.com/infoverload/datasets/tree/master/datasets/mysql/kickstarter)
+| Dataset                                                                                       |  Description       |
+|-----------------------------------------------------------------------------------------------|--------------------|
+|[What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)|                    |
+|[Climate data](https://github.com/infoverload/datasets/tree/master/datasets/mysql/climate)     |                    |
 
 ### PostgreSQL
 
-- [Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgres/spotify)
+| Dataset                                                                                       |  Description       |
+|-----------------------------------------------------------------------------------------------|--------------------|
+|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/spotify)     |                    |
 
 <br>
 
-<h2 align="center"> We welcome contributions!  </h2>
+<h2 align="center"> :heart: We welcome contributions! :heart: </h2>
 
 <p align="center">
 	Please see our <a href="contributing.md">contribution guide.</a>&nbsp;&nbsp;&nbsp;
