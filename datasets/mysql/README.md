@@ -2,7 +2,7 @@
 
 <div align="center">
 	<img width="350" height="250" src="https://i.imgur.com/MSFjyPp.png">
-	<br><br>
+	<br>
 </div>
 
 1. Make sure your MySQL database server is [running](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-mysql-server.html).

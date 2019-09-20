@@ -21,4 +21,4 @@ Run:
 psql -U username -d spotify < spotify.pgsql 
 ```
 
-For more detailed instructions, go [here](../README.md)
+For more detailed instructions, go [here](../README.md).

@@ -12,4 +12,4 @@ Run:
 mysql -u username -p brew < brew.sql
 ```
 
-For more detailed instructions, go [here](../README.md)
+For more detailed instructions, go [here](../README.md).
