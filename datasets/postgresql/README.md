@@ -1,4 +1,4 @@
-## How to use a dataset for
+## How to use a dataset for...
 
 <div align="center">
 	<img width="400" height="200" src="https://i.imgur.com/hoDcvk1.png">
