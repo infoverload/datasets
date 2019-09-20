@@ -54,9 +54,10 @@ Right now, we organize the collection by database type.
 
 <br>
 
-<h2 align="center"> 😎 Engage with our community! 😎 </h2>
+<h2 align="center"> 😎  Engage with our community!  😎 </h2>
 
 <p align="center">
+
 Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/master/docs/limitations.md), so we value your [feedback](https://github.com/prisma/prisma2/blob/master/docs/prisma2-feedback.md)!
 
 If you run into problems with this tutorial or spot any mistakes, feel free to make a [pull request](https://github.com/infoverload/datasets/pulls) or contact the team directly!
