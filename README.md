@@ -53,14 +53,16 @@ Right now, we organize the collection by database type.
 - [Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgres/spotify)
 
 
-<h1 align="center"> 😎 Engage with our community! 😎 </h1>
+<p align="center">
+<h2> 😎 Engage with our community! 😎 </h2>
 
 Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/master/docs/limitations.md), so we value your [feedback](https://github.com/prisma/prisma2/blob/master/docs/prisma2-feedback.md)!
 
-If you run into problems with this tutorial or spot any mistakes, feel free to make a pull request or contact the team directly! :)
+If you run into problems with this tutorial or spot any mistakes, feel free to make a [pull request](https://github.com/infoverload/datasets/pulls) or contact the team directly!
+
+<img src="https://media.giphy.com/media/ja0GIbM7tPVQws8xJK/giphy.gif">
 
 <br>
-<p align="center">
   <strong><a href="https://twitter.com/prisma">Twitter - </a></strong>
   <strong><a href="https://slack.prisma.io">Slack</a></strong>
 </p>
