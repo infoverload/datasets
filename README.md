@@ -1,11 +1,3 @@
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-<style>
-    title {
-        font-family: 'Kaushan Script', cursive;
-        font-size: 48px;
-    }
-</style>
-
 <div align="center">
 	<img width="350" height="250" src="https://i.imgur.com/PUTL6O6.png">
 	<br>
@@ -50,7 +42,6 @@ Right now, we organize the collection by database type.
 - [PostgreSQL](#PostgreSQL)
 
 <br>
-<br>
 
 ### MySQL
 
@@ -64,12 +55,12 @@ Right now, we organize the collection by database type.
 
 <h1 align="center"> 😎 Engage with our community! 😎 </h1>
 
-<div align="center">
 Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/master/docs/limitations.md), so we value your [feedback](https://github.com/prisma/prisma2/blob/master/docs/prisma2-feedback.md)!
 
 If you run into problems with this tutorial or spot any mistakes, feel free to make a pull request or contact the team directly! :)
+
 <br>
-<br>
+<p align="center">
   <strong><a href="https://twitter.com/prisma">Twitter - </a></strong>
-  <strong><a href="https://slack.prisma.io">Slack - </a></strong>
-</div>
+  <strong><a href="https://slack.prisma.io">Slack</a></strong>
+</p>
