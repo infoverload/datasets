@@ -1,8 +1,9 @@
-# Spotify data set
+# Spotify Playlist!
 
 ## Description
 
-This dataset works with PostgreSQL.  It includes these tables:
+This dataset is a representation of playlists in a Spotify account.  It includes these tables:
+
 - Album
 - Artist
 - Category
