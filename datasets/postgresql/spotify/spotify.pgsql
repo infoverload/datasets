@@ -33,9 +33,6 @@ CREATE TABLE public."Album" (
     uri text DEFAULT ''::text NOT NULL
 );
 
-
-ALTER TABLE public."Album"
-
 --
 -- Name: Album_availableMarkets; Type: TABLE; Schema: public;
 --
@@ -45,9 +42,6 @@ CREATE TABLE public."Album_availableMarkets" (
     "position" integer NOT NULL,
     value text NOT NULL
 );
-
-
-ALTER TABLE public."Album_availableMarkets"
 
 --
 -- Name: Artist; Type: TABLE; Schema: public; 
@@ -62,9 +56,6 @@ CREATE TABLE public."Artist" (
     track text
 );
 
-
-ALTER TABLE public."Artist"
-
 --
 -- Name: Category; Type: TABLE; Schema: public; 
 --
@@ -75,9 +66,6 @@ CREATE TABLE public."Category" (
     name text DEFAULT ''::text NOT NULL
 );
 
-
-ALTER TABLE public."Category"
-
 --
 -- Name: Category_icons; Type: TABLE; Schema: public;
 --
@@ -87,9 +75,6 @@ CREATE TABLE public."Category_icons" (
     "position" integer NOT NULL,
     value text NOT NULL
 );
-
-
-ALTER TABLE public."Category_icons"
 
 --
 -- Name: Genre; Type: TABLE; Schema: public;
@@ -102,9 +87,6 @@ CREATE TABLE public."Genre" (
     album text,
     track text
 );
-
-
-ALTER TABLE public."Genre"
 
 --
 -- Name: Image; Type: TABLE; Schema: public;
@@ -120,9 +102,6 @@ CREATE TABLE public."Image" (
     url text DEFAULT ''::text NOT NULL
 );
 
-
-ALTER TABLE public."Image"
-
 --
 -- Name: Playlist; Type: TABLE; Schema: public;
 --
@@ -135,9 +114,6 @@ CREATE TABLE public."Playlist" (
     public boolean DEFAULT false NOT NULL,
     uri text DEFAULT ''::text NOT NULL
 );
-
-
-ALTER TABLE public."Playlist"
 
 --
 -- Name: Track; Type: TABLE; Schema: public;
@@ -160,8 +136,6 @@ CREATE TABLE public."Track" (
 );
 
 
-ALTER TABLE public."Track"
-
 --
 -- Name: Track_availableMarkets; Type: TABLE; Schema: public;
 --
@@ -172,8 +146,6 @@ CREATE TABLE public."Track_availableMarkets" (
     value text NOT NULL
 );
 
-
-ALTER TABLE public."Track_availableMarkets"
 
 --
 -- Name: User; Type: TABLE; Schema: public;
@@ -187,9 +159,6 @@ CREATE TABLE public."User" (
     uri text DEFAULT ''::text NOT NULL,
     artist text
 );
-
-
-ALTER TABLE public."User"
 
 
 --
