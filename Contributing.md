@@ -12,7 +12,7 @@ The more datasets we have, the better!  We welcome contributions to this reposit
 2. Clone the forked version of the repository
 
 ```sh
-git clone https://github.com/username/datasets.git
+git clone https://github.com/yourusername/datasets.git
 ```
 
 3. Go into the repository and create a new branch

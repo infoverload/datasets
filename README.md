@@ -13,7 +13,13 @@
 </p>
 <br>
 
+:star: Star us on GitHub — it helps!
+
+<br>
+
 # Datasets for everyone! 
+
+**A collection of easily-manageable, interesting, free-to-use datasets for learning and experimentation**
 
 Datasets are collections of data that corresponds to the contents of a single database table and relates to a certain subject.  They can be leveraged to tell stories, help you investigate an issue, or give you deeper understanding into hypotheses.   
 
@@ -35,9 +41,9 @@ Right now, we organize the collection by database type.
 
 ### MySQL
 
-- [What to brew](#)
-- [Kickstarter](#)
+- [What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)
+- [Kickstarter](https://github.com/infoverload/datasets/tree/master/datasets/mysql/kickstarter)
 
 ### PostgreSQL
 
-- [Spotify](https://github.com/infoverload/datasets/spotify)
+- [Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgres/spotify)
