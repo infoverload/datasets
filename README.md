@@ -1,7 +1,20 @@
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+<style>
+    title {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 48px;
+    }
+</style>
+
 <div align="center">
 	<img width="350" height="250" src="https://i.imgur.com/PUTL6O6.png">
 	<br>
 	<br>
+</div>
+<div class="title">
+	<p align="center">
+		Datasets for everyone!
+	</p>
 </div>
 <p align="center">
 	We welcome contributions! :) <br>
@@ -9,15 +22,15 @@
 </p>
 <br>
 <p align="center">
+	:star: Star us on GitHub — it helps!&nbsp;&nbsp;&nbsp;
+</p>
+<br>
+<p align="center">
 	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
-:star: Star us on GitHub — it helps!
-
-<br>
-
-# Datasets for everyone! 
+# What is it?  
 
 **A collection of easily-manageable, interesting, free-to-use datasets for learning and experimentation**
 
@@ -47,3 +60,16 @@ Right now, we organize the collection by database type.
 ### PostgreSQL
 
 - [Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgres/spotify)
+
+
+<h1 align="center"> 😎 Engage with our community! 😎 </h1>
+
+<div align="center">
+Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/master/docs/limitations.md), so we value your [feedback](https://github.com/prisma/prisma2/blob/master/docs/prisma2-feedback.md)!
+
+If you run into problems with this tutorial or spot any mistakes, feel free to make a pull request or contact the team directly! :)
+<br>
+<br>
+  <strong><a href="https://twitter.com/prisma">Twitter - </a></strong>
+  <strong><a href="https://slack.prisma.io">Slack - </a></strong>
+</div>
