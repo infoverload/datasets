@@ -28,10 +28,10 @@ npm install -g prisma2
 
 ### 2. Introspect the database schema with the Prisma2 CLI
 
-Run the following command to initialize a new project named "introspect":
+Run the following command to initialize a new project named "my-dataset":
 
 ```
-prisma2 init introspect
+prisma2 init my-dataset
 ```
 
 Then follow the interactive prompt:
@@ -47,7 +47,7 @@ Then follow the interactive prompt:
 
 The introspection process is now complete.  You should see a message like:
 ```
- SUCCESS  The introspect directory was created!
+ SUCCESS  The my-dataset directory was created!
  SUCCESS  Prisma is connected to your database at localhost
 ```
 
@@ -66,4 +66,4 @@ prisma2 dev
 This launches the [development mode](https://github.com/prisma/prisma2/blob/master/docs/development-mode.md) and creates a [Prisma Studio](https://github.com/prisma/studio) endpoint for you.  Go to the endpoint (i.e. http://localhost:5555 ) and explore the generated Prisma schema visually in your browser.
 
 
-> **Note**: Prisma 2 currently supports introspecting MySQL and PostgreSQL database schemas. [Introspection support for SQLite]((https://github.com/prisma/prisma2/issues/51)) is in the works.
+> **Note**: Prisma 2 currently supports introspecting MySQL and PostgreSQL database schemas. [Introspection support for SQLite](https://github.com/prisma/prisma2/issues/51) is in the works.

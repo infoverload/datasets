@@ -10,7 +10,9 @@ In particular, we are looking for datasets that:
 
 - contain a database schema along with the data
 - you have tested yourself and can provide a brief explanation for
+- don't have enterprise-level schemas 
 - are small enough that it can be explored in an editor without it crashing :p 
+
 
 ## Steps for contributing
 
@@ -56,7 +58,7 @@ git push origin [branch name]
 9. Make a pull request.  
 
 
-### Quality, quality, quality!  
+## Quality, quality, quality!  
 
 Try to contribute a dataset that is normalized, which could mean removing duplicate, incorrect, or irrelevant data. Take care to do a thorough job in cleaning your dataset because even small mistakes can diminish the quality. 
 
@@ -64,15 +66,14 @@ Here are some guidelines to consider when creating or cleaning up a dataset:
 - the values in each column of a table are atomic
 - each row of a table are unique
 - a separate table is created for each set of related data
-- 
-- 
+- tables that relate to each other have proper relationships
 
-### Giving credit where it is due
+## Giving credit where it is due
 
 If you stumble upon a cool dataset that you want to add to this repository, be sure to specify where you found it. 
 
 
-### Where can I find a good dataset?
+## Where can I find a good dataset?
 
 Want to help find good datasets but not sure where to look? You can check out the following resources:
 

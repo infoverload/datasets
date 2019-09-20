@@ -6,16 +6,10 @@
     <img width="400" height="100" src="https://i.imgur.com/26LS52P.png">
 	<br>		
 </div>
-<p align="center">
-	We welcome contributions! :) <br>
-	Please see our <a href="contributing.md">contribution guide.</a>&nbsp;&nbsp;&nbsp;
-</p><br>
-<p align="center">
-	:star: Star us on GitHub — it helps!&nbsp;&nbsp;&nbsp;
-</p><br>
 <p align="center" style="color:purple">
 	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
 </p><br>
+
 
 # What is it?  
 
@@ -49,6 +43,17 @@ Right now, we organize the collection by database type.
 
 <br>
 
+<h2 align="center"> We welcome contributions!  </h2>
+
+<p align="center">
+	Please see our <a href="contributing.md">contribution guide.</a>&nbsp;&nbsp;&nbsp;
+</p>
+<p align="center">
+	:star: Star us on GitHub — it helps!&nbsp;&nbsp;&nbsp;
+</p><br>
+
+
+
 <h2 align="center"> 😎  Engage with our community!  😎 </h2>
 
 <p>
@@ -59,6 +64,6 @@ Prisma 2 is not production-ready [yet](https://github.com/prisma/prisma2/blob/ma
 
 <div align="center">
   <img width="100" height="100" src="https://media.giphy.com/media/ja0GIbM7tPVQws8xJK/giphy.gif"><br>
-  <strong><a href="https://twitter.com/prisma">Twitter - </a></strong>
+  <strong><a href="https://twitter.com/prisma">Twitter / </a></strong>
   <strong><a href="https://slack.prisma.io">Slack</a></strong>
 </div>
