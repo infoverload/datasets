@@ -9,7 +9,7 @@ This dataset is a crowd sourced database of how well beer styles (Stout, Pale Al
 Run:
 
 ```sh
-mysql -u username -p brew < brew.sql
+psql -U username -d brew < brew.pgsql 
 ```
 
 For more detailed instructions, go [here](../README.md).

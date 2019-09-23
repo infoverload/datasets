@@ -36,14 +36,14 @@ Right now, we organize the collection by database type.
 
 | Dataset                                                                                       |  Description                                    |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------|
-|[What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)| Beer stouts and how well they go with additions |
 |[Climate data](https://github.com/infoverload/datasets/tree/master/datasets/mysql/climate)     | Climate data for over 100 cities                |
 
 ### PostgreSQL
 
-| Dataset                                                                                       |  Description          |
-|-----------------------------------------------------------------------------------------------|-----------------------|
-|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/spotify)     | Spotify playlist data |
+| Dataset                                                                                            |  Description                                    |
+|----------------------------------------------------------------------------------------------------|-------------------------------------------------|
+|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/spotify)          | Spotify playlist data                           |
+|[What to brew](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/what-to-brew)| Beer stouts and how well they go with additions |
 
 <br>
 
