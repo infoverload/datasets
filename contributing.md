@@ -64,9 +64,17 @@ Try to contribute a dataset that is normalized, which could mean removing duplic
 
 Here are some guidelines to consider when creating or cleaning up a dataset:
 - the values in each column of a table are atomic
+- the data matches the column label
+- the data abides by the appropriate rules for its field
 - each row of a table are unique
+- the amount of values that are nulls are acceptable
 - a separate table is created for each set of related data
 - tables that relate to each other have proper relationships
+
+In general, the data that you are looking at should make sense.
+
+To learn more about cleaning data, go [here](https://www.europeandataportal.eu/elearning/en/module11/#/id/co-01).
+
 
 ## Giving credit where it is due
 
@@ -82,3 +90,5 @@ Want to help find good datasets but not sure where to look? You can check out th
 - [ProPublica](https://www.propublica.org/datastore/datasets)
 - [Data.Gov](https://www.data.gov/)
 - [World Bank Open Data](https://data.worldbank.org/)
+- [Cool Datasets](https://www.cooldatasets.com/)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)

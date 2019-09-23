@@ -1,8 +1,8 @@
 # What to brew! 
 
-## Description
+## Description of the data
 
-This dataset is a crowd sourced database of how well beer styles (Stout, Pale Ale, etc) and additions (chocolate, bacon, cherry) go with each other.
+This dataset is a crowd sourced database of how well beer styles (Stout, Pale Ale, etc) and additions (chocolate, bacon, cherry) go with each other. It is adapted from here: http://whattobrew.com/info.html
 
 ## How to use
 

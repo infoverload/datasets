@@ -7,7 +7,7 @@
 	<br>		
 </div>
 <p align="center" style="color:purple">
-	Learn how to use Prisma 2 with these datasets <a href="prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
+	Learn how to use Prisma 2 with these datasets <a href="use-with-prisma.md">here</a>.&nbsp;&nbsp;&nbsp;
 </p><br>
 
 
@@ -34,16 +34,16 @@ Right now, we organize the collection by database type.
 
 ### MySQL
 
-| Dataset                                                                                       |  Description       |
-|-----------------------------------------------------------------------------------------------|--------------------|
-|[What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)|                    |
-|[Climate data](https://github.com/infoverload/datasets/tree/master/datasets/mysql/climate)     |                    |
+| Dataset                                                                                       |  Description                                    |
+|-----------------------------------------------------------------------------------------------|-------------------------------------------------|
+|[What to brew](https://github.com/infoverload/datasets/tree/master/datasets/mysql/what-to-brew)| Beer stouts and how well they go with additions |
+|[Climate data](https://github.com/infoverload/datasets/tree/master/datasets/mysql/climate)     | Climate data for over 100 cities                |
 
 ### PostgreSQL
 
-| Dataset                                                                                       |  Description       |
-|-----------------------------------------------------------------------------------------------|--------------------|
-|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/spotify)     |                    |
+| Dataset                                                                                       |  Description          |
+|-----------------------------------------------------------------------------------------------|-----------------------|
+|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/postgresql/spotify)     | Spotify playlist data |
 
 <br>
 
