@@ -27,10 +27,18 @@ Right now, we organize the collection by database type.
 
 ## Dataset Collection
 
+- [SQLite](#SQLite)
 - [MySQL](#MySQL)
 - [PostgreSQL](#PostgreSQL)
 
 <br>
+
+### SQLite
+
+| Dataset                                                                                       |  Description                                    |
+|-----------------------------------------------------------------------------------------------|-------------------------------------------------|
+|[Climate data](https://github.com/infoverload/datasets/tree/master/datasets/sqlite/climate)    | Climate data for over 100 cities                |
+|[Spotify](https://github.com/infoverload/datasets/tree/master/datasets/sqlite/spotify)         | Spotify playlist data                           |
 
 ### MySQL
 
