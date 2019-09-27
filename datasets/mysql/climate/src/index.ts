@@ -2,19 +2,23 @@ import { Photon, Month } from '@generated/photon'
 
 const photon = new Photon()
 
-function main() {
+async function main() {
 
   // get all cities
-  const cities = photon.cities.findMany()
+  const cities = await photon.cities.findMany({
+    select: {
+      city: true
+    }
+  })
   console.log(cities)
 
   // get the January monthly average for all cities
-  const JanAvg = photon.monthlyAvgs({
+  const JanAvg = await photon.monthlyAvgs({
     where: { 
       month: Month.Jan 
     },
   })
-  //console.log(JanAvg)
+  console.log(JanAvg)
 
   photon.disconnect()
 
