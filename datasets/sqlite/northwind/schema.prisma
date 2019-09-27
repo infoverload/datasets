@@ -1,0 +1,162 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./northwind.db"
+}
+
+generator photon {
+  provider = "photonjs"
+}
+
+
+model Category {
+  category_id  Int       @id
+  categoryName String    @map("category_name")
+  description  String?
+  products     Product[]
+
+  @@map("categories")
+}
+
+model Customer {
+  customer_id  String  @default(cuid()) @id
+  companyName  String  @map("company_name")
+  contactName  String? @map("contact_name")
+  contactTitle String? @map("contact_title")
+  address      String?
+  city         String?
+  region       String?
+  postalCode   String? @map("postal_code")
+  country      String?
+  phone        String?
+  fax          String?
+
+  orders Order[]
+
+  @@map("customers")
+}
+
+model CustomerDemographic {
+  customer_type_id String  @default(cuid()) @id
+  customerDesc     String? @map("customer_desc")
+
+  @@map("customer_demographics")
+}
+
+model Employee {
+  employee_id         Int                 @id
+  address             String?
+  // birthDate           DateTime?           @map("birth_date")
+  city                String?
+  country             String?
+  employeeTerritories EmployeeTerritory[]
+  extension           String?
+  firstName           String              @map("first_name")
+  // hireDate            DateTime?           @map("hire_date")
+  homePhone           String?             @map("home_phone")
+  lastName            String              @map("last_name")
+  notes               String?
+  orders              Order[]
+  photoPath           String?             @map("photo_path")
+  postalCode          String?             @map("postal_code")
+  region              String?
+  title               String?
+  titleOfCourtesy     String?             @map("title_of_courtesy")
+
+  @@map("employees")
+}
+
+model EmployeeTerritory {
+  order_id Int @id
+
+  employee  Employee  @map("employee_id")
+  territory Territory @map("territory_id")
+
+  @@map("employee_territories")
+}
+
+model Order {
+  order_id       Int       @id
+  customer       Customer? @map("customer_id")
+  employee       Employee? @map("employee_id")
+  freight        Float?
+  // orderDate      DateTime? @map("order_date")
+  // requiredDate   DateTime? @map("required_date")
+  shipAddress    String?   @map("ship_address")
+  shipCity       String?   @map("ship_city")
+  shipCountry    String?   @map("ship_country")
+  shipName       String?   @map("ship_name")
+  // shippedDate    DateTime? @map("shipped_date")
+  shipPostalCode String?   @map("ship_postal_code")
+  shipRegion     String?   @map("ship_region")
+  shipVia        Shipper?  @map("ship_via")
+
+  @@map("orders")
+}
+
+model Product {
+  product_id      Int       @id
+  category        Category? @map("category_id")
+  discontinued    Int
+  productName     String    @map("product_name")
+  quantityPerUnit String?   @map("quantity_per_unit")
+  reorderLevel    Int?      @map("reorder_level")
+  supplier        Supplier? @map("supplier_id")
+  unitPrice       Float?    @map("unit_price")
+  unitsInStock    Int?      @map("units_in_stock")
+  unitsOnOrder    Int?      @map("units_on_order")
+
+  @@map("products")
+}
+
+model Region {
+  region_id         Int         @id
+  regionDescription String      @map("region_description")
+  territories       Territory[]
+
+  @@map("region")
+}
+
+model Shipper {
+  shipper_id  Int     @id
+  companyName String  @map("company_name")
+  orders      Order[]
+  phone       String?
+
+  @@map("shippers")
+}
+
+model Supplier {
+  supplier_id  Int       @id
+  address      String?
+  city         String?
+  companyName  String    @map("company_name")
+  contactName  String?   @map("contact_name")
+  contactTitle String?   @map("contact_title")
+  country      String?
+  fax          String?
+  homepage     String?
+  phone        String?
+  postalCode   String?   @map("postal_code")
+  products     Product[]
+  region       String?
+
+  @@map("suppliers")
+}
+
+model Territory {
+  territory_id         String              @default(cuid()) @id
+  employeeTerritories  EmployeeTerritory[]
+  region               Region              @map("region_id")
+  territoryDescription String              @map("territory_description")
+
+  @@map("territories")
+}
+
+model UsState {
+  state_id    Int     @id
+  stateAbbr   String? @map("state_abbr")
+  stateName   String? @map("state_name")
+  stateRegion String? @map("state_region")
+
+  @@map("us_states")
+}
