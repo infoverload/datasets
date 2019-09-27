@@ -28,5 +28,12 @@ prisma2 dev
 To seed the database with data, run:
 
 ```sh
-npm start
+npm run seed
 ```
+
+A demo script showcasing some sample Photon API calls has been created.  Run:
+
+```sh
+npm run start
+```
+
