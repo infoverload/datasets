@@ -1,7 +1,7 @@
-import { Photon, CityClient, MonthlyAvgClient} from '@generated/photon'
+import { Photon } from '@generated/photon'
 const photon = new Photon()
 
-let cities: City[] = require('./climate.json')
+let cities: City[] = require('../climate.json')
 
 type City = {
   id: string
