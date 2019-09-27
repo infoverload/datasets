@@ -1,0 +1,290 @@
+generator photon {
+  provider = "photonjs"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://username:password@localhost:5432/database?schema=public"
+}
+
+model Apple {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Apricot {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Bacon {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Basil {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Blackberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Blackberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Blueberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Bourbon {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Cardamom {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Chai {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Chamomile {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Cherry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Chicory {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Chile {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Cinnamon {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Coconut {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Coffee {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Coriander {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Cranberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Cucumber {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Elderflower {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Grapefruit {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model GreenTea {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Hazelnut {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Hibiscus {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Lavender {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model LemonGrass {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model LemonPeel {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model LemonPepper {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Mint {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Oak {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model OrangePeel {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Peach {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model PeanutButter {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Pecan {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Peppercorn {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model PinaColada {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Port {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Pumpkin {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Raspberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model RedWine {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model RoseHips {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Rye {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Smoke {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Strawberry {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Vanilla {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}
+
+model Whiskey {
+  id               String   @default(cuid()) @id
+  beer_style       String
+  rating           Float
+}

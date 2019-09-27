@@ -1,0 +1,41 @@
+generator photon {
+  provider = "photonjs"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://username:password@localhost:3306/database"
+}
+
+model City {
+  id               String   @default(cuid()) @id
+  city             String
+  country          String
+  monthlyAvgs      MonthlyAvg[]
+}
+
+model MonthlyAvg {
+  id               String   @default(cuid()) @id
+  month            Month
+  high             Float
+  low              Float
+  dryDays          Float
+  snowDays         Float
+  rainfall         Float
+  city             City       
+}
+
+enum Month {
+  Jan
+  Feb
+  March
+  April
+  May
+  June
+  July
+  Aug
+  Sept
+  Oct
+  Nov
+  Dec
+}

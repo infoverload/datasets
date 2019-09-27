@@ -1,0 +1,98 @@
+generator photon {
+  provider = "photonjs"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://username:password@localhost:5432/database?schema=public"
+}
+
+model Album {
+  id               String   @default(cuid()) @id
+  albumType        String   @map("album_type")
+  artist           Artist[]
+  availableMarkets String[]
+  genre            Genre[]
+  href             String   @unique
+  name             String
+  releaseDate      String   @map("release_date")
+  track            Track[]
+  uri              String   @unique
+}
+
+model Artist {
+  id    String  @default(cuid()) @id
+  album Album?
+  genre Genre[]
+  href  String  @unique
+  image Image[]
+  name  String
+  track Track?
+  uri   String  @unique
+  user  User[]
+}
+
+model Category {
+  id    String   @default(cuid()) @id
+  href  String   @unique
+  icons String[]
+  name  String
+}
+
+model Genre {
+  id     String  @default(cuid()) @id
+  album  Album?
+  artist Artist?
+  name   String  @unique
+  track  Track?
+}
+
+model Image {
+  id       String    @default(cuid()) @id
+  artist   Artist?
+  height   Int
+  playlist Playlist?
+  url      String    @unique
+  user     User?
+  width    Int
+}
+
+model Playlist {
+  id            String  @default(cuid()) @id
+  collaborative Boolean
+  href          String  @unique
+  image         Image[]
+  name          String
+  public        Boolean
+  track         Track[]
+  uri           String  @unique
+}
+
+model Track {
+  id               String    @default(cuid()) @id
+  album            Album?
+  artist           Artist[]
+  availableMarkets String[]
+  discNumber       Int       @map("disc_number")
+  durationMs       Int       @map("duration_ms")
+  explicit         Boolean
+  genre            Genre[]
+  href             String
+  isPlayable       Boolean   @map("is_playable")
+  playlist         Playlist?
+  popularity       Int
+  previewUrl       String    @map("preview_url")
+  realName         String
+  trackNumber      Int       @map("track_number")
+  uri              String
+}
+
+model User {
+  id          String  @default(cuid()) @id
+  artist      Artist?
+  displayName String  @map("display_name")
+  href        String  @unique
+  image       Image[]
+  product     String
+  uri         String  @unique
+}
