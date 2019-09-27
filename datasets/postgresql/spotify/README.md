@@ -29,7 +29,7 @@ This dataset is a representation of playlists in a Spotify account.  It includes
 |track: text   |
 
 
-## How to use
+## How to use just the dataset
 
 The data is in the form of a PostgreSQL dump. 
 
@@ -40,3 +40,32 @@ psql -U username -d spotify < spotify.pgsql
 ```
 
 For more detailed instructions, go [here](../README.md).
+
+## How to explore the dataset with Prisma
+
+Install the project dependencies by typing in your terminal:
+
+```sh
+npm install
+```
+
+A Prisma schema based on the dataset is provided for you already. Change the database credentials in the `schema.prisma` file:
+
+```diff
+datasource db {
+  provider = "mysql"
++  url      = "postgresql://username:password@localhost:5432/database?schema=public"
+}
+```
+
+To migrate the schema to your database, run:
+
+```sh
+prisma2 dev
+```
+
+To seed the database with data, run:
+
+```sh
+npm start
+```
