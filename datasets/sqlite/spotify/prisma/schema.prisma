@@ -4,7 +4,7 @@ generator photon {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:spotify.db"
+  url      = "file:../spotify.db"
   default  = true
 }
 

@@ -4,7 +4,7 @@ generator photon {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:climate.db"
+  url      = "file:../climate.db"
   default  = true
 }
 
