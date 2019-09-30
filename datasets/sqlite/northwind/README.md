@@ -39,8 +39,7 @@ Expand below to see what that console output looks like.
 <details><summary>See console ouput</summary>
 <br />
 
-```json
-$ ts-node script.ts
+```js
 [
   {
     employee_id: 1,
