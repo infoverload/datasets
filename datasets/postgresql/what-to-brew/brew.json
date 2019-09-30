@@ -1,4 +1,5 @@
-{
+[  
+  {
     "apple": {
       "Altbier": 0.6786,
       "Amber Kellerbier": 0.4231,
@@ -4508,3 +4509,4 @@
       "Witbier": 0.3235
     }
   }
+]
