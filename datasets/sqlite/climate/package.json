@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "seed": "ts-node prisma/seed.ts",
-    "postinstall": "prisma2 generate"
+    "postinstall": "prisma2 generate",
+    "prisma2": "prisma2"
   },
   "dependencies": {
     "@types/node": "12.7.8"
