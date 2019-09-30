@@ -1,5 +1,9 @@
 # Northwind Dataset Example
 
+## Description of the dataset
+
+This dataset has been adapted from https://github.com/pthom/northwind_psql. 
+
 ## How to use
 
 ### 1. Clone GitHub repository
